@@ -37,3 +37,4 @@ const myLibrary = [
 displayBooks();
 
 console.log(myLibrary)
+document.getElementById("new-book").showModal();

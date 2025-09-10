@@ -25,6 +25,30 @@
         </div>
         <div class="book-card-grid" id="book-card-grid"></div>
     </main>
+
+    <dialog id="new-book">
+        <div class="new-book-top-bar">
+            <p>New Book</p>
+            <button id="new-book-cancel-btn">X</button>
+        </div>
+        <fieldset>
+            
+                <label for="new-book-name" class="new-book-label">Name:</label>
+                <input type="text" class="new-book-input" id="new-book-name">
+            
+                <label for="new-book-author" class="new-book-label">Author:</label>
+                <input type="text" class="new-book-input" id="new-book-author">
+            
+                <label for="new-book-pages" class="new-book-label">Pages:</label>
+                <input type="number" class="new-book-input" id="new-book-pages">
+            
+                <label for="new-book-read" class="new-book-label">Read?</label>
+                <input type="checkbox" class="new-book-input" id="new-book-read">
+
+                <button type="submit">Submit</button>
+        </fieldset>
+
+    </dialog>
     <script src="main.js"></script>
 </body>
 </html>
