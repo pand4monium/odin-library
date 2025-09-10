@@ -213,6 +213,10 @@ dialog > fieldset {
     padding: 5px;
 }
 
+.new-book-input[type="text"]:invalid {
+    background-color: palevioletred;
+}
+
 .new-book-input[type="number"] {
     background-color: lightgray;
     width: 100px;
